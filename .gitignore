@@ -1,0 +1,10 @@
+content/*
+!content/languages
+!content/themes
+!content/plugins
+!content/index.php
+sitemap.*
+node_modules/
+bower_components/
+.log
+.DS_Store
