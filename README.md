@@ -27,7 +27,7 @@ clone this repository:
     git clone https://github.com/sayme/wp-submodule-multi-environment.git my-project
     cd my-project
     
-Run the the prepare script with a <wp-version> (e.g. 4.4)  and add new origin repository:
+Run the the prepare script with a wp version (e.g. 4.4)  and add new origin repository:
 
     sh prepare.sh <wp-version>
     git remote add origin <url>
