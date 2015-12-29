@@ -17,6 +17,20 @@ Remove this origin repository:
 Add new origin repository:
 
     git remote add origin <url>
+    
+#### Or make clean install with prepare.sh
+
+This will initialize a new git repo and make a first commit. It will leave README.md and prepare.sh unstaged.
+
+clone this repository:
+
+    git clone https://github.com/sayme/wp-submodule-multi-environment.git my-project
+    cd my-project
+    
+Run the the prepare script with a <wp-version> (e.g. 4.4)  and add new origin repository:
+
+    sh prepare.sh <wp-version>
+    git remote add origin <url>
 
 ## Upgrading WordPress
 
