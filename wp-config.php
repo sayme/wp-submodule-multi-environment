@@ -8,9 +8,9 @@
  * Codex page. You can get the MySQL settings from your web host.
  */
 
-/** Load wp config environment. */
-if ( file_exists( dirname( __FILE__ ) . '/wp-config-environment.php' ) ) {
-    require_once( dirname( __FILE__ ) . '/wp-config-environment.php' );
+/** Load environment configuration. */
+if ( file_exists( dirname( __FILE__ ) . '/config/environment.php' ) ) {
+    require_once( dirname( __FILE__ ) . '/config/environment.php' );
 }
 
 /** Set content directory. HOME_URL must be defiend. */

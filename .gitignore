@@ -1,7 +1,9 @@
+config/environments/development.php
 content/*
 !content/languages
 !content/themes
 !content/plugins
+!content/mu-plugins
 !content/index.php
 sitemap.*
 node_modules/
